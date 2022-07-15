@@ -1,0 +1,15 @@
+{
+  "name": "comet",
+	"private": true,
+  "scripts": {
+    "front": "npm run dev -w front",
+		"api": "npm run dev -w api"
+  },
+	"workspaces": [
+		"front",
+		"api"
+	],
+	"dependencies": {
+		"eslint": "latest"
+	}
+}

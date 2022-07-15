@@ -1,0 +1,19 @@
+{
+	"name": "api",
+	"version": "0.1.0",
+	"scripts": {
+		"compile": "tsc -p tsconfig.json",
+		"clean": "rm -rf out",
+		"dev": "npm run compile && npm run start",
+		"start": "node out"
+	},
+	"dependencies": {
+		"ws": "latest",
+		"@types/ws": "latest"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"typescript": "latest",
+		"@vercel/style-guide": "latest"
+	}
+}

@@ -1,0 +1,10 @@
+node_modules
+api/out
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+front/.next
+front/node_modules
+api/node_modules

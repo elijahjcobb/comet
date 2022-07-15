@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"outDir": "out",
+		"declaration": false,
+		"moduleResolution": "node",
+		"strict": true,
+		"types": ["node"]
+	},
+	"exclude": ["node_modules"],
+	"include": ["src"]
+}
