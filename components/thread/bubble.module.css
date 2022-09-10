@@ -1,0 +1,21 @@
+.bubble {
+  background: var(--sender);
+  color: white;
+  padding: var(--sp-s);
+  min-width: var(--sp-xl);
+  max-width: 75%;
+  border-radius: var(--sp-s);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.msg {
+  font-weight: 400;
+}
+
+.receiver {
+  background: var(--recv);
+  align-self: flex-start;
+  color: var(--fg);
+}

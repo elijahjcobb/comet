@@ -1,0 +1,45 @@
+.row {
+  background: var(--bg);
+  width: 100%;
+  padding: var(--sp);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-s);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  gap: var(--sp-xxs);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--sp-xxs);
+}
+
+.name {
+  font-weight: bold;
+  flex-grow: 1;
+  font-size: 1.125em;
+}
+
+.date,
+.msg,
+.chevron {
+  color: var(--accent-3);
+}
+
+.chevron {
+  width: 12px;
+  height: 12px;
+}
+
+.dateContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-xs);
+}

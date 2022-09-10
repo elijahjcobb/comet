@@ -1,0 +1,24 @@
+.nav {
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sp);
+  box-shadow: 0 0 var(--sp-m) var(--accent-9);
+  height: var(--height-nav);
+  z-index: 2;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.nav h1 {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.new {
+  color: var(--icon-color);
+  width: var(--icon-size);
+  height: var(--icon-size);
+}

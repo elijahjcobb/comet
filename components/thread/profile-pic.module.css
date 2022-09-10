@@ -1,0 +1,15 @@
+.pic {
+  width: var(--sp-l);
+  height: var(--sp-l);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--recv);
+  border-radius: 50%;
+}
+
+.pic span {
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp);
+  padding: var(--sp);
+  background: var(--bg);
+  box-shadow: 0 0 var(--sp-m) var(--accent-9);
+  font-size: 0.8em;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: var(--height-nav);
+  z-index: 2;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-xxs);
+}
+
+.name {
+  font-weight: 400;
+}
+
+.icon {
+  width: var(--sp-m);
+  height: var(--sp-m);
+  color: var(--primary);
+}
